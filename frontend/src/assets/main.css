@@ -1,0 +1,30 @@
+@import './base.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  background: #161616;
+  overflow-x: hidden;
+}
+
+/* Contenedor principal centrado con ancho máximo cómodo */
+#app {
+  width: 100%;
+  max-width: 1200px;      /* lo suficientemente ancho para 2 columnas */
+  min-height: 100vh;
+  margin: 0 auto;         /* centrado horizontal */
+  /* Sin padding, sin display grid/flex — cada componente lo maneja */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

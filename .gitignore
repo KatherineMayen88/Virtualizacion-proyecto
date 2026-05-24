@@ -1,0 +1,33 @@
+# Seguridad y Credenciales
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# IMPORTANTE: Ignoramos el archivo de secretos reales para no subir contraseñas a GitHub
+k8s/01-secrets.yaml
+
+# Node.js / Vue / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python / Flask / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+*.egg
+.pytest_cache/
+
+# Editores y Sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
